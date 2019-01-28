@@ -3,5 +3,6 @@ theme: jekyll_patternbot
 
 patternbot:
   title: Shop by Air
-  description:
-    font_url: "https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet"
+  description: |
+    SDFGSDFGSDFG
+  font_url: "https://fonts.googleapis.com/css?family=Montserrat"
