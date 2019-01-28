@@ -7,8 +7,8 @@ patternbot:
     SDFGSDFGSDFG
   font_url: "https://fonts.googleapis.com/css?family=Montserrat"
   colors:
-    background: "color-secondary"
-    accent: "--color-primary-light"
+    background: "--color-secondary"
+    accent: "--color-primary"
     patterns:
       brand.logos: "--color-primary-light"
   rationales:
