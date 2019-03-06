@@ -1,0 +1,16 @@
+title: "Cards"
+description: |
+
+patterns:
+  air:
+    title: "Air"
+    description: |
+      These are used to describe each of the Air signs of the Zodiac (Gemini, Libra, and Aquarius). This brief description will replace the banner image and will be located at the top of the page (below the top nav bar, and before the products).
+  purchase:
+    title: "Purchase"
+    description: |
+      This will be used when viewing a product. The image of the product is to be included, followed by the name of the item and other information of the product. The "Purchase Now" button will be right below.
+  products:
+    title: "Products"
+    description: |
+      This card would be used only to briefly view the product. When users click the "View Product" button, the goal would be to have the image scale larger to view the product more closely (for example, users would hover their mouse to a certain area of the shirt, it would allow them to view that area more closely).

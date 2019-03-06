@@ -1,0 +1,12 @@
+title: "Forms"
+description: |
+
+patterns:
+  phone:
+    title: "Phone Number"
+    description: |
+      The first box is used for the area code (For example, "613").
+  confirmation:
+    title: "Confirmation"
+    description: |
+      This would be used at the end of the form (but before the purchase button). This states that the information that was currently filled out in the form is correct.

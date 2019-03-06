@@ -1,0 +1,8 @@
+title: "Footer"
+description: |
+
+patterns:
+  footer:
+    title: "Footer"
+    description: |
+      The background colour of the footer will be primary colour (#374d65), and the social media fonts will be white. When links are hovered, there will be no background colour change, but the cursors will be pointers.

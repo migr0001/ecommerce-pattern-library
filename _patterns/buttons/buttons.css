@@ -2,16 +2,21 @@
   background-color: var(--color-primary);
   border-color: var(--color-primary);
   color: #fff;
+  width: 12em;
+  height: 2.5em;
+  text-align: center;
+  transform: translate(50%);
 }
 
 .btn:hover {
   background-color: var(--color-primary);
-  border-color: var(--color-primary);
+  font-weight: bold;
 }
 
 .btn-ghost {
   background-color: transparent;
   color: var(--color-primary);
+  border: 2px solid;
 }
 
 .btn-ghost:hover {
@@ -19,7 +24,20 @@
 }
 
 .btn-light {
-  background-color: var(--color-neutral-beige);
-  border-color: var(--color-neutral-beige);
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+}
+
+.btn-light:hover {
+  background-color: #fff;
   color: var(--color-primary);
+}
+
+.purchase:hover {
+  background-color: var(--color-neutral-beige);
+  border-color: transparent;
+  color: var(--color-primary);
+  font-weight: bold;
 }

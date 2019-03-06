@@ -18,3 +18,7 @@ patternbot:
       The primary colours represent the air element. A color contrast with the blue hues against the white background would be ideal to create this website. These colours would be used for the banners and navigation bar.
     colors.secondary: |
       The secondary colour creates a color contrast, not only against the white, but against the primary colours. This would be used for buttons, or to highlight links.
+    colors.accent: |
+      The primary accent colour red is used for the cancel button.
+    colors.neutral: |
+      The neutral colour is used mainly used for the background colour of the website.

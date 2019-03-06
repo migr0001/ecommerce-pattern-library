@@ -1,0 +1,12 @@
+title: "Navigation"
+description: |
+  These are navigation patterns used for promotional discount on items, or to be used on smaller screens.
+patterns:
+  toggle:
+    title: "Toggle switch"
+    description: |
+      The toggle will be used only on small screens or mobile devices.
+  radial:
+    title: "Radial buttons"
+    description: |
+      After user makes a purchase, this will be used to show items that are currently on sale. It serves as a recommended item that they might also like to purcahse. Users will click on the radial buttons to view a differnt product on sale.

@@ -1,0 +1,85 @@
+.card {
+  width: 50%;
+  transform: translate(50%);
+}
+
+prod {
+  width: 100%;
+}
+
+.prod {
+  width: 50%;
+}
+
+.border {
+  border: 3px solid #000;
+  border-radius: 8px;
+  max-height: 70%;
+  background-color: #fff;
+}
+
+p {
+  visibility: hidden;
+  display: none;
+}
+
+h2 {
+  visibility: hidden;
+  display: none;
+}
+
+h3 {
+  visibility: hidden;
+  display: none;
+}
+
+@media only screen and (min-width: 10em) {
+
+  .small-screen {
+    visibility: visible;
+  }
+
+  .large-screen {
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 20em) {
+
+  div .border {
+    width: 50%;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .small-screen {
+    visibility: hidden;
+  }
+
+  .large-screen {
+    visibility: visible;
+  }
+
+  p {
+    visibility: visible;
+    display: block;
+  }
+
+  h2 {
+    visibility: visible;
+    display: block;
+  }
+
+  h3 {
+    visibility: visible;
+    display: block;
+  }
+
+  .prod {
+    width: 50%;
+  }
+
+}

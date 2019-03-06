@@ -1,0 +1,133 @@
+.carousel-items > div {
+  display: none;
+}
+
+#croptop-control:checked ~ .carousel-inner #croptop,
+#hoodies-control:checked ~ .carousel-inner #hoodies,
+#beanie-control:checked ~ .carousel-inner #beanie,
+#pillow-control:checked ~ .carousel-inner #pillow {
+  display: block;
+}
+
+.carousel-btn {
+  border: 4px solid #374d65;
+  border-radius: 50%;
+}
+
+#croptop-control:checked ~ .carousel-inner [for="#croptop-control"],
+#hoodies-control:checked ~ .carousel-inner [for="#hoodies-control"],
+#beanie-control:checked ~ .carousel-inner [for="#beanie-control"],
+#pillow-control:checked ~ .carousel-inner [for="#pillow-control"] {
+  display: block;
+}
+
+input {
+  visibility: visible;
+}
+
+label {
+  visibility: visible;
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  display: none;
+  background-color: #374d65;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  display: inline-block;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.nav a {
+  display: block;
+}
+
+.nav a:hover {
+  background-color: #85a4a5;
+  color: #fff;
+}
+
+.nav-check:checked ~ .nav {
+  display: block;
+}
+
+.nav-check {
+  position: absolute;
+  top: -3em;
+}
+
+.nav-label {
+  cursor: pointer;
+  width: 40px;
+  display: inline-block;
+}
+
+.nav-open,
+.nav-close {
+  display: block;
+  width:100%;
+}
+
+.nav-close {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ nav-label .nav-open {
+  display: none;
+}
+
+.nav-check:checked ~ .nav-label .nav-close {
+  display: block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .nav-check ~ .nav {
+    display: block;
+  }
+
+  .nav-open {
+    visibility: hidden;
+  }
+
+  .nav-close {
+    visibility: hidden;
+  }
+
+  .nav {
+    visibility: visible;
+  }
+
+  nav {
+    margin: 0;
+    list-style-type: none;
+    text-align: center;
+  }
+
+  nav li {
+    display: inline-block;
+  }
+
+  nav a {
+    color: #fff;
+    display: inline-block;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  nav a:hover {
+    color: #fff;
+  }
+
+}

@@ -1,0 +1,11 @@
+.logo {
+  cursor: pointer;
+  outline: none;
+  text-align: center;
+  display: block;
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+}

@@ -3,11 +3,10 @@
     --color-primary-light: #3B6D87;
     --color-secondary: #85A4A5;
     --color-red: #CB6161;
+    --color-green: #9dc183;
     --color-neutral-beige: #e2e2e2;
-    --color-peach: peachpuff;
 
     --font-primary: "Montserrat", sans-serif;
-    --font-secondary: "Source Code Pro", Menlo, Consolas, monospace;
 }
 
 html {
