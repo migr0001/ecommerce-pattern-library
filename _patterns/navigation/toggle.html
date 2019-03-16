@@ -1,13 +1,29 @@
-<nav>
-  <input type="checkbox" class="hide-custom-input nav-check" id="nav-check">
-  <label class="nav-label" for="nav-check">
-    <img class="nav-open" src="/images/burger-icon.svg" alt="">
-    <img class="nav-close" src="/images/cancel-button.svg" alt="">
-  </label>
-  <ul class="nav list-group">
-    <li><a class="island normal" href="#">Home</a></li>
-    <li><a class="island normal" href="#">Clothing</a></li>
-    <li><a class="island normal" href="#">Decor</a></li>
-    <li><a class="island normal" href="#">Shop by Zodiac</a></li>
-  </ul>
-</nav>
+<body>
+  <h1 class="white-bg milli text-center text-upper island-1-4 small-screen push-0"><i>Free shipping</i> world wide!</h1>
+  <h1 class="white-bg milli text-center text-upper island-1-4 large-screen push-0">Take advantage of the <i>Free shipping</i> world wide!</h1>
+
+  <header class="purple-bg toggle">
+
+    <div class="logo gutter push-0 pad-t large-screen">
+      <a href="/index.html/"><svg class="icon i-l-3-4"><use xlink:href="/images/icons.svg#logo-white"></a>
+    </div>
+
+    <nav class="island tog-close valign-middle center-content-horizontal">
+
+      <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
+      <label class="nav-label push" for="nav-check">
+        <img src="/images/burger-icon.svg" class="nav-open social-media" alt="">
+        <img src="/images/cancel-button.svg" class="nav-close social-media" alt="">
+      </label>
+
+      <ul class="nav grid grid-middle list-group">
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="milli island normal" href="/index/">Home</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'clothes' %}current{% endif %}"><a class="milli island normal" href="/clothes/">Clothes</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'decor' %}current{% endif %}"><a class="milli island normal" href="/decor/">Decor</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'zodiac' %}current{% endif %}"><a class="milli island normal" href="/zodiac/">Zodiac</a></li>
+      </ul>
+
+    </nav>
+  </header>
+
+</body>

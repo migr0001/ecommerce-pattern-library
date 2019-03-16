@@ -2,6 +2,11 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
+
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header & footer.
+
   title: SHOP BY AIR
   description: |
     Shop By Air is dedicated to providing stylish designs with the best quality materials for our loyal customers. Not only are the products affordable for all, but have been recieving rave reviews. Be sure to download our app on your mobile phone to be uploaded on the latest trends, and be notified when deals are happening. The air signs (Gemini, Libra, and Aquarius) will surely love these gifts!
@@ -22,3 +27,12 @@ patternbot:
       The primary accent colour red is used for the cancel button.
     colors.neutral: |
       The neutral colour is used mainly used for the background colour of the website.
+    collections:
+      clothes:
+        output: true
+
+    defaults:
+      - scope:
+        path: _clothes
+      values:
+        layout: crop-top

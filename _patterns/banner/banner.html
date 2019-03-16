@@ -1,0 +1,11 @@
+<div class="img-container gutter-2">
+  <div class="inner-container center-content-horizontal pad-t-2 gutter">
+    <h1 class="tenakilo push-0 title normal">{{include.heading}}</h1>
+    <div class="island-1-2 gutter-2 transparent">
+      <h5 class="giga text-center push-2 normal">{{include.text}}</h5>
+      {% if include.button_url%}
+        {% pattern buttons/basic url=include.button_url text=include.button_text %}
+      {% endif %}
+    </div>
+  </div>
+</div>

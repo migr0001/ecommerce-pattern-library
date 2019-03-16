@@ -9,6 +9,13 @@ patterns:
       Default to using the basic button. It should always be used in front of light backgrounds.
     width: "12em"
     background: "--color-secondary"
+    fields:
+      - name: text
+        type: string
+        example: "clothes"
+      - name: url
+        type: url
+        example: "/clothes/"
   ghost:
     title: "Ghost"
     description: |

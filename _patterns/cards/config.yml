@@ -10,7 +10,7 @@ patterns:
     title: "Purchase"
     description: |
       This will be used when viewing a product. The image of the product is to be included, followed by the name of the item and other information of the product. The "Purchase Now" button will be right below.
-  products:
-    title: "Products"
+  shop:
+    title: "Shop"
     description: |
-      This card would be used only to briefly view the product. When users click the "View Product" button, the goal would be to have the image scale larger to view the product more closely (for example, users would hover their mouse to a certain area of the shirt, it would allow them to view that area more closely).
+      This will be used in the home page. This is also the About page.

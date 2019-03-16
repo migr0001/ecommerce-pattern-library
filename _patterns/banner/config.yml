@@ -1,0 +1,17 @@
+patterns:
+  banner:
+    fields:
+      - name: button_text
+        type: string
+        example: "Clothes"
+        required: false
+      - name: button_url
+        type: button_url
+        example: "/clothes/"
+        required: false
+      - name: heading
+        type: string
+        example: "Shop By Air"
+      - name: text
+        type: string
+        example: "We provide stylish designs that all air signs (Gemini, Libra and Aquarius) would love!"

@@ -1,0 +1,19 @@
+html {
+  font-family: "Montserrat", sans-serif;
+  background-color: #fff;
+}
+
+.img-container {
+  background-image: url(../images/assets/background.jpg);
+  height: 70%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.inner-container {
+  text-align: center;
+  color: #fff;
+  height: 600px;
+}

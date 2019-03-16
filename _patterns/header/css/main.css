@@ -1,40 +1,26 @@
-.carousel-items > div {
-  display: none;
+html {
+  font-family: "Montserrat", sans-serif;
 }
 
-#croptop-control:checked ~ .carousel-inner #croptop,
-#hoodies-control:checked ~ .carousel-inner #hoodies,
-#beanie-control:checked ~ .carousel-inner #beanie,
-#pillow-control:checked ~ .carousel-inner #pillow {
+.purple-bg {
+  background-color: var(--color-primary);
+}
+
+.title {
+  margin-bottom: 1em;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+
+.red-sale {
+  color: #fff;
+  background-color: #cb6161;
   display: block;
 }
 
-.carousel-btn {
-  border: 4px solid #374d65;
-  border-radius: 50%;
-}
-
-.carousel-inner {
-  text-align: center;
-  margin: 0 auto;
-}
-
-#croptop-control:checked ~ .carousel-inner [for="#croptop-control"],
-#hoodies-control:checked ~ .carousel-inner [for="#hoodies-control"],
-#beanie-control:checked ~ .carousel-inner [for="#beanie-control"],
-#pillow-control:checked ~ .carousel-inner [for="#pillow-control"] {
-  display: block;
-}
-
-.hover-box:hover .hover-box-img,
-.hover-box:focus .hover-box-img {
-  transition-duration: 0.5s;
-  transform: scale(1.5);
-}
-
-.toggle  {
-  position: relative;
-  padding: 1em;
+.sale {
+  color: #fff;
+  background-color: #cb6161;
 }
 
 input {
@@ -45,27 +31,6 @@ label {
   visibility: visible;
 }
 
-ul {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.white-bg {
-  background-color: #fff;
-  color: var(--color-primary);
-}
-
-.sale {
-  color: #fff;
-  background-color: #cb6161;
-  border-radius: 5px 5px 0 0;
-}
-
-.title {
-  margin-bottom: 1em;
-  letter-spacing: 5px;
-}
-
 .nav {
   margin: 0;
   padding: 0;
@@ -73,7 +38,6 @@ ul {
   background-color: var(--color-primary);
   text-decoration: none;
   text-align: center;
-  border-radius: 8px;
 }
 
 nav a {
@@ -88,10 +52,8 @@ nav a {
 }
 
 .nav a:hover {
-  background-color: var(--color-secondary);
   color: #fff;
   border-radius: 8px;
-  transition-duration: 0.5s;
 }
 
 .nav-check:checked ~ .nav {
@@ -107,13 +69,6 @@ nav a {
   cursor: pointer;
   width: 40px;
   display: inline-block;
-
-  position: absolute;
-  bottom: 0;
-}
-
-.tog-close {
-  margin-bottom: 2em;
 }
 
 .nav-open,
@@ -124,9 +79,6 @@ nav a {
 
 .nav-close {
   display: none;
-
-  bottom: 0;
-  position: absolute;
 }
 
 .nav-check:checked ~ .nav-label .nav-open {
@@ -141,20 +93,24 @@ nav a {
   display: block;
 }
 
+@media only screen and (min-width: 10em) {
+
+  h4, .sale {
+    display: none;
+  }
+
+}
+
 @media only screen and (min-width: 20em) {
-
-  .sale {
-    display: block;
-  }
-
-  h4 {
-    display: block;
-  }
 
   .red-sale {
     color: #fff;
     background-color: #cb6161;
     display: none;
+  }
+
+  h4, .sale {
+    display: block;
   }
 
   .title {
@@ -211,10 +167,6 @@ nav a {
   nav a:hover {
     color: #fff;
     border-radius: 8px;
-  }
-
-  .tog-close {
-    margin-bottom: 0;
   }
 
 }
