@@ -1,0 +1,14 @@
+---
+layout: default
+---
+
+<h1>{{page.name}}</h1>
+<p>{{page.description}}</p>
+<img src="{{page.image}}" alt="">
+<div class="grid gutter-1-4">
+  {% for product in site.products %}
+    <div class="unit [ xs-1 s-1 m-1-3] island-1-4">
+      {% pattern cards/products-card data=products %}
+    </div>
+  {% endfor %}
+</div>

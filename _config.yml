@@ -28,11 +28,11 @@ patternbot:
     colors.neutral: |
       The neutral colour is used mainly used for the background colour of the website.
     collections:
-      clothes:
+      products:
         output: true
 
     defaults:
-      - scope:
-        path: _clothes
+      scope:
+        path: _products
       values:
-        layout: crop-top
+        layout: products

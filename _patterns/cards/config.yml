@@ -14,3 +14,13 @@ patterns:
     title: "Shop"
     description: |
       This will be used in the home page. This is also the About page.
+  product-card:
+    width: 400
+    description: |
+      The product card is used on the product listing page to display each available product.
+    fields:
+      - name: data
+        type: object
+        data:
+            source: "site.products[0]"
+            type: Product
