@@ -1,8 +1,3 @@
 title: "Footer"
 description: |
-
-patterns:
-  footer:
-    title: "Footer"
-    description: |
-      The background colour of the footer will be primary colour (#374d65), and the social media fonts will be white. When links are hovered, there will be no background colour change, but the cursors will be pointers.
+  The background colour of the footer will be primary colour, and the social media fonts will be color white. When social media icons are hovered, the background colour will be Primary Light var(--color-primary-light). These social media icons link to different websites related to Astrology (specifically Air signs, as it is the main focus of the website). The logo is a link that will lead the users back to the home page.

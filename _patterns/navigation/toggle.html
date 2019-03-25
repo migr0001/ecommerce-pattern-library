@@ -1,14 +1,21 @@
 <body>
-  <h1 class="white-bg milli text-center text-upper island-1-4 small-screen push-0"><i>Free shipping</i> world wide!</h1>
-  <h1 class="white-bg milli text-center text-upper island-1-4 large-screen push-0">Take advantage of the <i>Free shipping</i> world wide!</h1>
+  <ul class="skip-links">
+    <li><a href="/index/">Home page</a></li>
+    <li><a href="/clothes/">Clothes page</a></li>
+    <li><a href="/decor/">Decor page</a></li>
+    <li><a href="/zodiac/">Shop by Zodiac signs</a></li>
+    <li><a href="#footer">Footer</a></li>
+  </ul>
+  <h1 class="white-bg milli text-center text-upper island-1-4 small-screen push-0"><i>Free shipping</i> world wide</h1>
+  <h1 class="white-bg milli text-center text-upper island-1-4 large-screen push-0">Take advantage of the <i>Free shipping</i> world wide</h1>
 
-  <header class="purple-bg toggle">
+  <header class="purple-bg toggle" id="top">
 
     <div class="logo gutter push-0 pad-t large-screen">
-      <a href="/index.html/"><svg class="icon i-l-3-4"><use xlink:href="/images/icons.svg#logo-white"></a>
+      <a href="/"><svg class="icon i-l-3-4"><use xlink:href="/images/icons.svg#logo-white"></a>
     </div>
 
-    <nav class="island tog-close valign-middle center-content-horizontal">
+    <nav class="island tog-close valign-middle center-content-horizontal" role="navigation" id="nav">
 
       <input type="checkbox" class="nav-check hide-custom-input" id="nav-check">
       <label class="nav-label push" for="nav-check">
@@ -17,10 +24,9 @@
       </label>
 
       <ul class="nav grid grid-middle list-group">
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="milli island normal" href="/index/">Home</a></li>
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'clothes' %}current{% endif %}"><a class="milli island normal" href="/clothes/">Clothes</a></li>
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'decor' %}current{% endif %}"><a class="milli island normal" href="/decor/">Decor</a></li>
-        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'zodiac' %}current{% endif %}"><a class="milli island normal" href="/zodiac/">Zodiac</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'home' %}current{% endif %}"><a class="unit milli island gutter normal" href="/index/" id="home">Home</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'products' %}current{% endif %}"><a class="unit milli island gutter normal" href="/products/" id="products">Items</a></li>
+        <li class="unit xs-1 s-1 m-1 l-1-4 {% if page.highlight_nav == 'zodiac' %}current{% endif %}"><a class="unit milli island gutter normal" href="/zodiac/" id="zodiac">Zodiac</a></li>
       </ul>
 
     </nav>

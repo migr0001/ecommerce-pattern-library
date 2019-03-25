@@ -1,43 +1,31 @@
-.btn {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
+.btn-purchase {
+  background-color: var(--color-primary-light);
   color: #fff;
-  width: 12em;
-  height: 2.5em;
   text-align: center;
+  transform: translate(50%);
+  padding: 12px;
+  border-radius: 8px;
+  width: 50%;
   transform: translate(50%);
 }
 
-.btn:hover {
-  background-color: var(--color-primary);
-  font-weight: bold;
+.btn-purchase:hover {
+  background-color: var(--color-secondary);
+  transition-duration: .3s;
 }
 
-.btn-ghost {
-  background-color: transparent;
-  color: var(--color-primary);
-  border: 2px solid;
-}
-
-.btn-ghost:hover {
+.btn-air {
+  padding: 10px;
+  border-bottom: 3px solid #fff;
   color: #fff;
+  text-decoration: none;
 }
 
-.btn-light {
-  background-color: transparent;
-  border-color: transparent;
-  border-bottom: 2px solid #fff;
+.btn-air:hover {
+  padding: 10px;
+  transition-duration: .5s;
+  background-color: var(--color-secondary);
   color: #fff;
-}
-
-.btn-light:hover {
-  background-color: #fff;
-  color: var(--color-primary);
-}
-
-.purchase:hover {
-  background-color: var(--color-neutral-beige);
-  border-color: transparent;
-  color: var(--color-primary);
-  font-weight: bold;
+  border-radius: 8px;
+  border-bottom: none;
 }

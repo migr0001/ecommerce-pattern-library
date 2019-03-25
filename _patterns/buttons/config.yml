@@ -4,27 +4,15 @@ description: |
 
 patterns:
   basic:
-    title: "Basic"
+    title: "Purchase Button"
     description: |
-      Default to using the basic button. It should always be used in front of light backgrounds.
-    width: "12em"
-    background: "--color-secondary"
+      This is purchase button is used for the product cards.
     fields:
       - name: text
         type: string
         example: "clothes"
-      - name: url
-        type: url
-        example: "/clothes/"
-  ghost:
-    title: "Ghost"
-    description: |
-      The ghost button is specifically for cards to view products.
-    background: "#fff"
-    width: "12em"
   light:
-    title: "Light"
+    title: "Signs button"
     description: |
-      The light button is used for banners, where it will be placed in front of dark images to create colour contrast.
-    background: "--color-primary"
-    width: "12em"
+      These three buttons will be used on the banners for the Air signs (Gemini, Libra, and Aquarius), located in the "Zodiac" page. The buttons will help navigate the users to different Zodiac signs and continue to shop based on a specific sign.
+    background: "#3b6d87"

@@ -1,17 +1,50 @@
 patterns:
   banner:
+    title: "Top Banner"
+    description: |
+      This banner is used at the top of every page, but right after the header.
     fields:
       - name: button_text
         type: string
-        example: "Clothes"
+        example: "Home Page"
         required: false
       - name: button_url
         type: button_url
-        example: "/clothes/"
+        example: "/index/"
         required: false
       - name: heading
         type: string
         example: "Shop By Air"
-      - name: text
+  gemini:
+    title: "Gemini Banner"
+    description: |
+      This banner is used for the "Zodiac" page. Users get to choose an Air sign (Gemini, Libra, or Aquarius), and shop based on a specific Zodiac sign. The links on the banner will help users navigate through different Zodiac signs within the page, and continue to shop based on the certain sign. A list of products wil be shown directly under this banner.
+    fields:
+      - name: gemini-heading
         type: string
-        example: "We provide stylish designs that all air signs (Gemini, Libra and Aquarius) would love!"
+        example: "Gemini"
+      - name: gemini-paragraph
+        type: string
+        example: "Independent twins who were born intellectual and are caring zodiac friends"
+  libra:
+    title: "Libra Banner"
+    description: |
+      This banner is used for the "Zodiac" page. Users get to choose an Air sign (Gemini, Libra, or Aquarius), and shop based on a specific Zodiac sign. The links on the banner will help users navigate through different Zodiac signs within the page, and continue to shop based on the certain sign. A list of products wil be shown directly under this banner.
+    fields:
+      - name: libra-heading
+        type: string
+        example: "Libra"
+      - name: libra-paragraph
+        type: string
+        example: "Born balanced by nature, loyal friends and are charming to the core"
+  aqua:
+    title: "Aquarius Banner"
+    description: |
+      This banner is used for the "Zodiac" page. Users get to choose an Air sign (Gemini, Libra, or Aquarius), and shop based on a specific Zodiac sign. The links on the banner will help users navigate through different Zodiac signs within the page, and continue to shop based on the certain sign. A list of products wil be shown directly under this banner.
+    fields:
+      - name: aquarius-heading
+        type: string
+        example: "Aquarius"
+      - name: aquarius-paragraph
+        type: string
+        example: "Creative perfectionists embracing their wild witted personality"

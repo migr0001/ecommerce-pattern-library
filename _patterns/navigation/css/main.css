@@ -1,3 +1,16 @@
+.skip-links {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  background-color: #374d65;
+  border-radius: 8px;
+}
+
+.skip-links a {
+  background-color: #374d65;
+  color: #fff;
+}
+
 .carousel-items > div {
   display: none;
 }
@@ -57,8 +70,9 @@ ul {
 
 .sale {
   color: #fff;
-  background-color: #cb6161;
+  background-color: #85a4a5;
   border-radius: 5px 5px 0 0;
+  padding: 0.5em;
 }
 
 .title {
@@ -119,7 +133,7 @@ nav a {
 .nav-open,
 .nav-close {
   display: block;
-  width:100%;
+  width: 100%;
 }
 
 .nav-close {
@@ -153,7 +167,7 @@ nav a {
 
   .red-sale {
     color: #fff;
-    background-color: #cb6161;
+    background-color: #85a4a5;
     display: none;
   }
 
@@ -162,6 +176,14 @@ nav a {
     margin-bottom: 0;
     display: block;
     letter-spacing: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 40em) {
+
+  .sale {
+    padding: 0;
   }
 
 }

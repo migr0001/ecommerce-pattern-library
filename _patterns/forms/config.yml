@@ -2,10 +2,6 @@ title: "Forms"
 description: |
 
 patterns:
-  phone:
-    title: "Phone Number"
-    description: |
-      The first box is used for the area code (For example, "613").
   confirmation:
     title: "Confirmation"
     description: |

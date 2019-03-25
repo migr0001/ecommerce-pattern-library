@@ -6,11 +6,13 @@ patternbot:
   layouts:
     default: |
       The default layout should be used for almost every page, it includes the website's primary header & footer.
+    product: |
+      The products layout should be used for products only.
 
   title: SHOP BY AIR
   description: |
-    Shop By Air is dedicated to providing stylish designs with the best quality materials for our loyal customers. Not only are the products affordable for all, but have been recieving rave reviews. Be sure to download our app on your mobile phone to be uploaded on the latest trends, and be notified when deals are happening. The air signs (Gemini, Libra, and Aquarius) will surely love these gifts!
-  font_url: "https://fonts.googleapis.com/css?family=Montserrat"
+    This website provides clothing and home decors based on the Air elements of the Zodiac sign (Gemini, Libra, and Aquarius). The logo is the air symbol to represent the three Zodiac signs.
+  font_url: "https://fonts.google.com/specimen/Montserrat?selection.family=Montserrat:400,400i,500,500i,700,700i"
   colors:
     background: "--color-neutral-beige"
     accent: "--color-primary"
@@ -18,21 +20,22 @@ patternbot:
       brand.logos: "--color-primary-light"
   rationales:
     typefaces.primary: |
-      Montserrat was selected because it is a light typeface, creating a simple and clean look to the minimilistic website. This will be the only typeface that would be used.
+      Montserrat was selected because it is a light typeface, creating a simple and clean look to the website. This will be the only typeface that would be used.
     colors.primary: |
-      The primary colours represent the air element. A color contrast with the blue hues against the white background would be ideal to create this website. These colours would be used for the banners and navigation bar.
+      The primary colours shown represent the Air elements of the Zodiac sign (Gemini, Libra, and Aquarius). A colour contrast with the cool colours (such as white text) would be ideal for this website. The Primary colour will be used for the top header navigation as well as the footer. The Primary Light is used to highlight the buttons.
     colors.secondary: |
-      The secondary colour creates a color contrast, not only against the white, but against the primary colours. This would be used for buttons, or to highlight links.
+      This secondary colour is used to highlight the links located at the top header.
     colors.accent: |
-      The primary accent colour red is used for the cancel button.
+      The Red is used to let users know which items are on sale.
     colors.neutral: |
-      The neutral colour is used mainly used for the background colour of the website.
-    collections:
-      products:
-        output: true
+      This colour is used as a secondary background colour against the white default background colour. This will create a slight contrast against the white default background colour. The product cards will have this background colour.
 
-    defaults:
-      scope:
-        path: _products
-      values:
-        layout: products
+collections:
+  products:
+    output: true
+
+defaults:
+  - scope:
+      path: _products
+    values:
+      layout: product

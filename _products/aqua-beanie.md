@@ -1,5 +1,5 @@
 ---
-name: "Aquarius Cap"
+name: "Aquarius Beanie"
 description: |
   This beanie is perfect for the colder months, or for casual aesthetic wear.
 image: "/images/assets/a-beanie.png"

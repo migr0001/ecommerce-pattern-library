@@ -1,5 +1,5 @@
-<div class="border grid">
-  <div class="unit card push pad-t">
+<div class="grid island">
+  <div class="border unit card push pad-t">
     <div>
       <img class="card" src="/images/assets/aquarius-pillow.png" alt="">
     </div>
@@ -9,8 +9,10 @@
     </div>
     <div class="large-screen">
       <h2 class="push-0 text-center large-screen">Aquarius Pillow</h2>
-      <p class="push-1-2 text-center large-screen">Regular Price ($20.00)</p>
+      <strong class="push-1-2 text-center large-screen">Regular Price ($20.00)</strong>
     </div>
-    {% pattern buttons/basic %}
+    <div class="push">
+    {% pattern buttons/basic text="Purchase" url=include.data.url %}
+    </div>
   </div>
 </div>
