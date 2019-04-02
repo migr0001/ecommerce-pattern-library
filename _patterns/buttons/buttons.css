@@ -29,3 +29,22 @@
   border-radius: 8px;
   border-bottom: none;
 }
+
+.btn-header {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn-header:hover {
+  background-color: var(--color-secondary);
+  padding: 10px;
+  transition-duration: .5s;
+  color: #fff;
+  border-radius: 8px;
+  border-bottom: none;
+}
+
+a {
+  text-decoration: none;
+}

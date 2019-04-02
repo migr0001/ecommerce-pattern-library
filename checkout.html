@@ -1,14 +1,31 @@
 ---
 layout: default
 ---
-<h1 class="title center">Checkout</h1>
-<h2>Contact Info</h2>
-<div>
-  {% pattern forms/input %}
-  {% pattern forms/phone %}
-  {% pattern forms/questions %}
-  {% pattern forms/provinces %}
+
+<div class="max-length island">
 </div>
+
 <div>
-  {% pattern forms/confirmation %}
+  <div class="max-length island">
+    <h2 class="normal push-0 border-bottom">Contact Info</h2>
+  </div>
+
+  <div>
+    {% pattern forms/input %}
+    {% pattern forms/phone %}
+  </div>
+</div>
+
+<div>
+  <div class="unit xs-1 max-length island pad-t-2">
+    <h2 class="normal push-0 border-bottom">Shipping Info</h2>
+  </div>
+  <div>
+    {% pattern forms/address %}
+    {% pattern forms/provinces %}
+    {% pattern forms/questions %}
+  </div>
+  <div class="pad-b-2">
+    {% pattern forms/confirmation %}
+  </div>
 </div>
