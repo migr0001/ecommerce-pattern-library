@@ -1,6 +1,15 @@
+.btn-light {
+  border-radius: 8px;
+  padding: 0.2em;
+}
+
 .blue-bg{
   background-color: #374d65;
   color: #fff;
+}
+
+.blue {
+  color: #374d65;
 }
 
 .white {

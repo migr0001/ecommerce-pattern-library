@@ -1,5 +1,18 @@
+.overline {
+  text-decoration: line-through;
+}
+
 .purple-bg {
   background-color: var(--color-primary);
+}
+
+.red {
+  color: #cb6161;
+}
+
+.red-bg {
+  background-color: #cb6161;
+  color: #fff;
 }
 
 .title {
