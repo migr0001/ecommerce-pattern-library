@@ -1,11 +1,13 @@
-<a href="{{include.data.url}}" class="unit xs-1 center card border push pad-t">
-  <div>
-    <div class="unit unit-content-center-horizontal">
-      <img class="unit xs-1 img-flex" src="{{include.data.image}}" alt="">
+<div class="gutter">
+  <a href="{{include.data.url}}" class="unit xs-1 center card border push-2 pad-t-2">
+    <div>
+      <div class="unit unit-content-center-horizontal">
+        <img class="unit xs-1 img-flex" src="{{include.data.image}}" alt="">
+      </div>
+      <div class="large-screen">
+        <h2 class="push-0 text-center large-screen">{{include.data.name}}</h2>
+        <strong class="push-1-2 text-center large-screen">${{include.data.price}}</strong>
+      </div>
     </div>
-    <div class="large-screen">
-      <h2 class="push-0 text-center large-screen">{{include.data.name}}</h2>
-      <strong class="push-1-2 text-center large-screen">${{include.data.price}}</strong>
-    </div>
-  </div>
-</a>
+  </a>
+</div>
